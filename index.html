@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <link href="css/style.css" rel="stylesheet" type="text/css" />
+        <link href="css/animat.css" rel="stylesheet" type="text/css" />
+        <meta http-equiv="content-type" content="text/html; charset=utf-8">
+        <meta name=viewport content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="Белье нижнее, Нижнее белье, Фирменное нижнее белье, Купить нижнее белье Украина, Украина">
+        <title>dia</title>
+    </head>
+    <body>
+    <div id="intro" class="main-block1"></div>
+        <div class="main-block">
+                <div class="for-logo">    
+                    <div id="logo"></div>
+                </div>
+            <div class="text">
+                <p>
+                У нас на сайте большой ассортимент нижнего белья отечественных и зарубежных производителей. Есть комплекты в разных ценовых категориях: премиум, люкс, эконом.<br> 
+                Доставка в любой уголок страны. Успейте сделать заказ.
+                </p>
+            </div>
+            <div class="for-button">
+                <a class="button" href="https://vk.com/id343604978">Посетить</a>
+            </div>
+            
+        </div>
+        <section class="content">
+        <div class="pr"><a href="#">Преимущества</a></div>
+        	<div class="icon-block1">
+        	    <ul class="icons">
+        	        <li>
+        	            <a class="tooltip item1">
+        	                <div class="tooltip-content1">
+        	                    <p>Приятные и актуальные цены</p>
+        	                </div>
+        	            </a>
+        	        </li>
+        	        <li>
+        	            <a class="tooltip item2">
+        	                <div class="tooltip-content1">
+        	                    <p>Высококачественные материалы</p>
+        	                </div>
+        	            </a>
+        	        </li>
+        	        <li>
+        	            <a class="tooltip item3">
+        	                <div class="tooltip-content1">
+        	                    <p>Гарантируем качество нашего товара</p>
+        	                </div>    
+        	            </a>
+        	        </li>
+        	    </ul>
+        	</div>
+        	<div class="text-about">
+            	<p>Для пошива белья были взяты качественные материалы: хлопок, шелк, вискоза и лен.<br>
+            	Белье хорошо носиться, приятное на ощупь, хорошо пропускает воздух, есть много оттенков цветов на выбор.</p>
+        	</div>
+        	<div class="around">
+            	<a class="bounce button1 animate" href="https://vk.com/id343604978">	Узнать больше</a>
+        	</div>
+        </section>
+        <section class="content2">
+        	<div class="foothead"><a href="#">Доставка</a></div>
+        	<div class="icon-block2">
+        	    <ul class="icons1">
+        	        <li>
+        	            <a class="animated box tooltip circle1">
+        	                <div class="tooltip-content">
+        	                    <p>Оформление заказа</p>
+        	                </div> 
+        	            </a>
+        	        </li>
+        	        <li><a class="animated box3 arrow"></a></li>
+        	        <li>
+        	            <a class="animated box tooltip circle2">
+        	                <div class="tooltip-content">
+        	                    <p>Обработка вашего заказа</p>
+        	                </div> 
+        	            </a>
+        	        </li>
+        	        <li><a class="animated box3 arrow"></a></li>
+        	        <li>
+        	            <a class="animated box tooltip circle3">
+        	                <div class="tooltip-content">
+        	                    <p>Отправка, оплата и получение</p>
+        	                </div>  
+        	            </a>
+        	        </li>
+        	    </ul>
+        	</div>
+        </section>
+        <section>
+        	<div class="footer">
+            	<div class="left">
+            	    <p>Следите за нами</p>
+            	    <div class="lnk vk"><a id="aa" href="https://vk.com/id343604978">vk</a></div>
+        	        <div class="lnk fb"><a id="aa" href="#">fb</a></div>
+        	        <div class="lnk inst"><a id="aa" href="#">i</a></div>
+        	    </div>
+        	    <div class="right">
+        	        <a class="button2" href="https://vk.com/id343604978">Вступить</a>
+        	    </div>
+        	</div>
+		</section>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+		<script type="text/javascript" src="js/jquery.parallax-1.1.3.js"></script>
+
+		<script type="text/javascript" src="js/jquery.localscroll-1.2.7-min.js"></script>
+		<script type="text/javascript" src="js/jquery.scrollTo-1.4.2-min.js"></script>
+
+		<script type="text/javascript" src="js/button.js"></script>
+
+		<script type="text/javascript" src="js/eskju.jquery.scrollflow.js"></script>
+		<script type="text/javascript">
+		$(document).ready(function(){		
+			$('#nav').localScroll(800);
+			$('#intro').parallax("50%", 0.2);
+			$('#second').parallax("50%", 0.1);
+			$('.bg').parallax("50%", 0.4);
+			$('#third').parallax("50%", 0.3);
+		
+		})
+		</script>
+		<script>
+			var $animation_elements = $('.box');
+			var $window = $(window);
+			
+			function check_if_in_view() {
+			  var window_height = $window.height();
+			  var window_top_position = $window.scrollTop();
+			  var window_bottom_position = (window_top_position + window_height);
+			 
+			  $.each($animation_elements, function() {
+			    var $element = $(this);
+			    var element_height = $element.outerHeight();
+			    var element_top_position = $element.offset().top;
+			    var element_bottom_position = (element_top_position + element_height);
+			 
+			    //check to see if this current container is within viewport
+			    if ((element_bottom_position >= window_top_position) &&
+			        (element_top_position <= window_bottom_position)) {
+			    	jQuery('.box3').addClass('bounceInLeft');
+			    	jQuery('.box3').removeClass('fadeout');
+			    	jQuery('.box').addClass('fadein');
+			    	jQuery('.box').removeClass('fadeout');
+			    	
+			      
+			    } else {
+			    	jQuery('.box3').addClass('fadeout');
+			    	jQuery('.box3').removeClass('bounceInLeft');
+			    	jQuery('.box').addClass('fadeout');
+			    	jQuery('.box').removeClass('fadein');
+			    	
+			    }
+			  });
+			}
+			
+			$window.on('scroll resize', check_if_in_view);
+			$window.trigger('scroll');
+
+		</script>
+    </body>
+</html>
