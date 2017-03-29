@@ -55,11 +55,13 @@ div{box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-b
 .fadeout{opacity:1;}
 .right{display:none;}
 }
+@media screen and (max-height:700px){.text{top: 25%;}}
+@media screen and (min-height:701px){.text{top: 35%;}}
 @media screen and (min-width:321px) and (max-width:740px){div{box-sizing:border-box;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;}
 .for-logo{position:absolute !important;margin:0 !important;padding:10px 0 0 !important;}
 #logo{height:130px !important;width:130px !important;left:50% !important;margin-left:-65px !important;}
 .text p{text-align:justify !important;}
-.text{position:absolute !important;top:35% !important;left:5% !important;width:90% !important;padding:0 !important;font-size:15pt !important;}
+.text{position:absolute !important;left:5% !important;width:90% !important;padding:0 !important;font-size:15pt !important;}
 .for-button{padding:0 0 10px;bottom:10%}
 .icon-block1,
 .icon-block2{padding-top:40px;position:relative;height:auto !important;width:100%;}
