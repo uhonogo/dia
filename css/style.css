@@ -111,11 +111,4 @@ li{height:300px;margin:0 auto;padding-top:50px;width:50%;}
 .main-block1,
 .main-block{min-height:850px !important;}
 }
-@media screen and (min-width:1500px) and (max-width:1700px){.text{position:relative;top:-50px;}
-.main-block1,
-.main-block{min-height:850px !important;}
-}
-@media screen and (min-width:921px){.icon-block1{min-height:400px;}
-.main-block1,
-.main-block{min-height:850px !important;}
-}
+/* @media screen and (min-width: 1200px){.main-block{-webkit-background-size:100% 100% !important;background-size:cover !important;}} */
