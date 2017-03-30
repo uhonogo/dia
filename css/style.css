@@ -29,8 +29,8 @@ li{box-sizing:border-box;display:inline-block;height:330px;padding-top:60px;posi
 .button2{left:calc(50% - 109px);display:block;width:218px;height:64px;border:2px solid #b7cddb;line-height:64px;color:#ffffff;text-transform:uppercase;font-size:20pt;transition:.3s, ease-in-out;border-radius:15px;-webkit-border-radius:15px;-ms-border-radius:15px;-o-border-radius:15px;-webkit-transition:.3s, ease-in-out;-ms-transition:.3s, ease-in-out;-o-transition:.3s, ease-in-out;}
 .button2:hover{color:white;background:#ea003c;border:2px solid #ea003c;}
 .lnk{color:rgb(51, 51, 51);padding:0;margin-top:10px;display:inline-block;}
-#aa{border:1px solid rgb(41, 171, 226);font-size:14pt;text-align:center;line-height:40px;display:block;width:40px;height:40px;background:white;border-radius:20px;transition:.2s, ease-in-out;-webkit-border-radius:20px;-ms-border-radius:20px;-o-border-radius:20px;-webkit-transition:.2s, ease-in-out;-ms-transition:.2s, ease-in-out;-o-transition:.2s, ease-in-out;}
-.lnk #aa:hover{color:white;background:rgb(41, 171, 226);}
+.aa{border:1px solid rgb(41, 171, 226);font-size:14pt;text-align:center;line-height:40px;display:block;width:40px;height:40px;background:white;border-radius:20px;transition:.2s, ease-in-out;-webkit-border-radius:20px;-ms-border-radius:20px;-o-border-radius:20px;-webkit-transition:.2s, ease-in-out;-ms-transition:.2s, ease-in-out;-o-transition:.2s, ease-in-out;}
+.lnk .aa:hover{color:white;background:rgb(41, 171, 226);}
 .vk{position:relative;animation-delay:.5s;-webkit-animation-delay:.5s;-ms-animation-delay:.5s;animation-duration:1s;-webkit-animation-duration:1s;-ms-animation-duration:1s;}
 .fb{position:relative;margin-left:8px;animation-delay:0.75s;-webkit-animation-delay:0.75s;-ms-animation-delay:0.75s;animation-duration:0.75s;-webkit-animation-duration:0.75s;-ms-animation-duration:0.75s;}
 .inst{position:relative;margin-left:8px;animation-delay:1s;-webkit-animation-delay:1s;-ms-animation-delay:1s;animation-duration:.75s;-webkit-animation-duration:.5s;-ms-animation-duration:.5s;}
