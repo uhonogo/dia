@@ -106,6 +106,8 @@ li{height:300px;margin:0 auto;padding-top:50px;width:50%;}
 .around{position: relative;}
 li{height:300px;margin:0 auto;padding-top:50px;width:50%;}
 .tooltip-content1{bottom:0;}
+.for-button{position:relative !important;padding-top:0 !important;}
+.main-block{height:auto !important;}
 }
 @media screen and (min-width:921px) and (max-width:1500px){.text{position:relative;top:-100px;}
 .main-block1,
